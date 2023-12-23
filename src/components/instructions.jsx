@@ -14,7 +14,11 @@ export default function Instructions() {
         <div className="w-1/3">
           <div className="font-bold  items-start">To get started</div>
           <ol className="list-decimal list-inside">
-            <li>In terminal, run "npm init".</li>
+            <li>Place these files in your directory.</li>
+            <li>
+              In terminal, cd to the directory of your project and run "npm
+              install".
+            </li>
             <li>Next, run "npm run dev" </li>
           </ol>
 
