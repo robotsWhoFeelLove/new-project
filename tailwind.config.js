@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 
   // use below if you need animation package.
   // run this in terminal: npm install -D tailwindcss-animated

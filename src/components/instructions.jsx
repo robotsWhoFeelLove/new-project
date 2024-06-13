@@ -1,24 +1,22 @@
+//import { string } from "../assets/file";
+//import handleText from "../handlers/textHandler";
 export default function Instructions() {
+  //handleText(string);
+
   return (
     <>
       <div className="flex flex-col md:h-screen md:w-screen justify-center items-center gap-5 text-slate-700">
-        <h1 className="text-5xl text-slate-500 underline decoration-slate-400 pt-3">
-          Hello World!
-        </h1>
+        <h1 className="text-5xl text-slate-500 underline decoration-slate-400 pt-3">Hello World!</h1>
         <div className="md:w-1/3 hyphens-auto leading-8 p-3 md:p-0">
-          Skeleton boilerplate for a react project with Vite, Tailwind and
-          gh-pages deploy. There are instructions for a nice animation package
-          if needed in the tailwind.config.js file and the README.
+          Skeleton boilerplate for a react project with Vite, Tailwind and gh-pages deploy. There are instructions for a nice animation package if
+          needed in the tailwind.config.js file and the README.
         </div>
         <div className="w-[90vw] md:w-1/3 h-1 bg-slate-400 rounded"></div>
         <div className="md:w-1/3 p-3 md:p-0">
           <div className="font-bold  items-start">To get started</div>
           <ol className="list-decimal list-inside">
             <li>Place these files in your directory.</li>
-            <li>
-              In terminal, cd to the directory of your project and run "npm
-              install".
-            </li>
+            <li>In terminal, cd to the directory of your project and run "npm install".</li>
             <li>Next, run "npm run dev" </li>
           </ol>
 
